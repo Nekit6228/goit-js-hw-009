@@ -1,0 +1,77 @@
+
+
+body{
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/7ff5aa2204c532c80dcc425080aeb1be.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 350px;
+    border-radius: 20px;
+    border: 3px #FFC0CB solid;
+}
+
+.feedback-form:hover,
+.feedback-form:focus{
+    border: 3px #FF69B4 solid;
+}
+input{
+    width: 250px;
+    border-radius: 10px;
+    border: 3px #FFC0CB solid;
+}
+
+input:hover,
+input:focus{
+    border: 3px #FF69B4 solid;
+}
+
+textarea{
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px #FFC0CB solid;
+}
+textarea:hover,
+textarea:focus{
+    border: 3px #FF69B4 solid;
+}
+
+
+.label-form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    font-weight: bold; 
+}
+
+
+
+.button-form {
+    display: block;
+   width: 150px;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   background-color:   #FFC0CB;
+   border-radius: 30px;
+   border: #FFC0CB;
+}
+
+.button-margin{
+    margin-bottom: 20px;
+}
+
+.button-form:hover {
+    background-color: #FF69B4;
+}

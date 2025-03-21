@@ -1,3 +1,31 @@
 @import url('./1-gallery.css');
 @import url('./2-form.css');
-@import url('./index.css');
+
+body{
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/7ff5aa2204c532c80dcc425080aeb1be.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    list-style: none; 
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+    padding: 20px;
+}
+li a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

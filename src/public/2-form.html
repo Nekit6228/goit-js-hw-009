@@ -7,19 +7,18 @@
     <link rel="stylesheet" href="./css/2-form.css">
 </head>
 <body>
-    <a href="./index.html">Exit</a>
-    
-        <div class="div-form">
-            <form class="form-new" action="">
-                <label class="label-form" for="">
-                    <input type="email" name="email">
-                </label>
-                <label class="label-form" for="">
-                    <textarea name="textarea"  cols="20" rows="7"></textarea>
-                </label>
-                <button class="button-form" type="submit">Submit</button>
-            </form>
-        </div>
+
+                <form class="feedback-form" autocomplete="off">
+                    <label class="label-form ">
+                      Email
+                      <input type="email" name="email" autofocus placeholder="nekitpetr@gmail.com" required/>
+                    </label>
+                    <label class="label-form">
+                      Message
+                      <textarea name="message" rows="8" placeholder="Comment" required></textarea>
+                    </label>
+                    <button type="submit" class="button-form button-margin">Submit</button>
+                </form>
     
 
     <script type="module" src="./js/2-form.js"></script>

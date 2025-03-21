@@ -1,3 +1,14 @@
+body{
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/7ff5aa2204c532c80dcc425080aeb1be.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
